@@ -88,18 +88,24 @@ int main() {
 
   printf("DIGITE O NUMERO DE PONTOS TURISTICOS:\n");
   scanf("%d", &Numerodepontosturisticos2);
-  printf("\n");
+  printf("\n\n");
 
+  Densidade2 = Populacao2 / Areametro2;
+
+  PIBpercapta2 = PIB2 / Populacao2;
 
   // DADOS DE SAIDA CARTA 01 E 02
   // Área para exibição dos dados da cidade
 
-  printf("==DESCRIÇÃO DA CARTA 01== \n \nESTADO: %s \n NOME DA CIDADE: %s \n CODIGO: %s \n POPULAÇÃO: %d \n ÁREA POR METRO QUADRADO: % .2f \n PIB: %.2lf \n NUMERO DE PONTOS TURISTICO: %d \n",Estado1,Nomedacidade1,Codigodacarta1,Populacao1,Areametro1,PIB1,Numerodepontosturisticos1);
+  printf("==DESCRIÇÃO DA CARTA 01== \n \n ESTADO: %s \n NOME DA CIDADE: %s \n CODIGO: %s \n POPULAÇÃO: %d \n ÁREA POR METRO QUADRADO: % .2f \n PIB: %.2lf \n NUMERO DE PONTOS TURISTICO: %d \n",Estado1,Nomedacidade1,Codigodacarta1,Populacao1,Areametro1,PIB1,Numerodepontosturisticos1);
   printf(" Densidade Populacional: %.2f \n", (float) Densidade1);
+  
   printf(" PIB Percapita: %.2f \n\n ", (float) PIBpercapta1);
   
-  printf("==DESCRIÇÃO DA CARTA 02== \n \n ESTADO: %s \n NOME DA CIDADE: %s \n CODIGO: %s \n POPULAÇÃO: %d \n ÁREA POR METRO QUADRADO: % .2f \n PIB: % 2.f \n NUMERO DE PONTOS TURISTICOS: %d \n\n",Estado2,Nomedacidade2,Codigodacarta2,Populacao2,Areametro2,PIB2,Numerodepontosturisticos2);
-
+  printf("==DESCRIÇÃO DA CARTA 02== \n \n ESTADO: %s \n NOME DA CIDADE: %s \n CODIGO: %s \n POPULAÇÃO: %d \n ÁREA POR METRO QUADRADO: % .2f \n PIB: % 2.f \n NUMERO DE PONTOS TURISTICOS: %d \n",Estado2,Nomedacidade2,Codigodacarta2,Populacao2,Areametro2,PIB2,Numerodepontosturisticos2);
+  
+  printf(" Densidade Populacional: %.2f \n", (float) Densidade2);
+  printf(" PIB Percapita: %.2f \n\n ", (float) PIBpercapta2);
   
   
 
