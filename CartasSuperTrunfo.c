@@ -101,7 +101,6 @@ int main() {
   printf("==DESCRIÇÃO DA CARTA 02== \n \n ESTADO: %s \n NOME DA CIDADE: %s \n CODIGO: %s \n POPULAÇÃO: %d \n ÁREA POR METRO QUADRADO: % .2f \n PIB: % 2.f \n NUMERO DE PONTOS TURISTICOS: %d \n\n",Estado2,Nomedacidade2,Codigodacarta2,Populacao2,Areametro2,PIB2,Numerodepontosturisticos2);
 
   
-
   
 
 return 0;
